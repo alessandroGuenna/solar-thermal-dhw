@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# DHWcalc outputs the code does not read
+data/Load data/**/*_Vdot.txt
+data/Load data/**/*_sum.txt
+
+# Weather downloaded at runtime: keep only the default location
+data/Weather data/*.csv
+!data/Weather data/tmy_44.4056_8.9463_50_180.csv

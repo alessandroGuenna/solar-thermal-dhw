@@ -1,0 +1,3 @@
+DHW profiles generated using DHWcalc, Version 2.02b, developed by Universität Kassel.
+Single family house, from 50 to 400 l/day (average) at 45°C.
+More details in metadata.
