@@ -38,7 +38,7 @@ On Linux and macOS, activate the environment with `source .venv/bin/activate` in
 | `matplotlib` | 3.11.2 | Plots |
 | `pydantic` | 2.14.2 | Plant and price parameters, with input validation |
 | `pvlib` | 0.16.1 | Weather data download and irradiance on the tilted collector |
-| `CoolProp` | 7.1.0 | Properties of the water/glycol mixture |
+| `CoolProp` | 7.2.0 | Properties of the water/glycol mixture |
 | `streamlit` | 1.66.1 | Web interface only, not needed by `app.py` |
 
 `app.py` also uses `tkinter`, which is included with Python on Windows and macOS. On Linux you may have to install it separately (for example `sudo apt install python3-tk`).
