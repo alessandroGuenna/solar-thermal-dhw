@@ -18,7 +18,7 @@ It runs in the browser, so it works on any device (PC, tablet or smartphone). Th
 
 ### Option 2: run it locally
 
-You need **Python 3.12 or newer**. Download the repository (`Code > Download ZIP`, or `git clone`), open a terminal in its folder and run:
+You need **Python 3.12 to 3.14**. Download the repository (`Code > Download ZIP`, or `git clone`), open a terminal in its folder and run:
 
 ```bash
 python -m venv .venv
@@ -27,7 +27,9 @@ pip install -r requirements.txt
 python app.py
 ```
 
-On Linux and macOS, activate the environment with `source .venv/bin/activate` instead.
+On Linux and macOS, use `python3` if `python` is not found, and activate the environment with `source .venv/bin/activate` instead.
+
+In Windows PowerShell the activation may be blocked: run `Set-ExecutionPolicy -Scope Process RemoteSigned` first, or use the Command Prompt.
 
 `requirements.txt` installs the exact versions the project was tested with:
 
@@ -41,7 +43,7 @@ On Linux and macOS, activate the environment with `source .venv/bin/activate` in
 | `CoolProp` | 7.2.0 | Properties of the water/glycol mixture |
 | `streamlit` | 1.66.1 | Web interface only, not needed by `app.py` |
 
-`app.py` also uses `tkinter`, which is included with Python on Windows and macOS. On Linux you may have to install it separately (for example `sudo apt install python3-tk`).
+`app.py` also uses `tkinter`, which is included with Python on Windows and with the python.org installer on macOS. Otherwise you may have to install it separately (for example `brew install python-tk` on macOS with Homebrew, or `sudo apt install python3-tk` on Linux).
 
 To open the web interface on your own computer instead of the desktop window, run `streamlit run streamlit_app.py`.
 
