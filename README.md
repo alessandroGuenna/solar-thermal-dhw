@@ -12,7 +12,7 @@ There are two ways to use the app, with the same model and the same results.
 
 ### Option 1: web app (nothing to install)
 
-The link to the web app will be added here as soon as it is online.
+Open the app at <https://solar-thermal-dhw.streamlit.app/>
 
 It runs in the browser, so it works on any device (PC, tablet or smartphone). The app is on a free hosting service that puts it to sleep after a period of inactivity: if you see a wake-up button, press it and wait a moment.
 
